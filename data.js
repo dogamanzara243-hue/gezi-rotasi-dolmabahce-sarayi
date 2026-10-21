@@ -13,19 +13,18 @@ const SPOT_DATA = {
         description: "31. Osmanlı Padişahı Sultan Abdülmecid tarafından yaptırılan Dolmabahçe Sarayı; Barok, Rokoko ve Neoklasik stillerin Osmanlı mimarisiyle sentezlendiği şaheserdir.",
         badges: [
             { icon: "fa-solid fa-clock", text: "Ziyaret Saatleri: 09:00 - 18:00" },
-            { icon: "fa-solid fa-ticket", text: "Müzekart Geçerlidir" },
-            { icon: "fa-solid fa-calendar-xmark", text: "Detaylar Rehberde" }
+            { icon: "fa-solid fa-ticket", text: "Müzekart Geçerlidir" }
         ]
     },
     overview: {
         paragraphs: [
-            "Dolmabahçe Sarayı Müzesi, İstanbul'un tarihi yarımadasında yer alan, yüzyılların izini taşıyan ve dünya kültürel mirasının en değerli duraklarından biridir.",
-            "Yerli ve yabancı milyonlarca turist tarafından ziyaret edilen bu eşsiz yapı, mimari ihtişamı ve tarihi önemi ile her dönem büyük ilgi görmektedir."
+            "Dolmabahçe Sarayı, daha önce Osmanlı kaptan-ı deryalarının gemilerini demirlediği doğal bir limanın doldurulmasıyla elde edilen alana inşa edilmiştir. Garabet Amira Balyan ve oğlu Nigoğos Balyan tarafından tasarlanan saray, 1856 yılında kullanıma açılmıştır.",
+            "Sarayın en önemli tarihi şahsiyetlerinden biri de Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'tür. Atatürk, İstanbul ziyaretlerinde bu sarayı kullanmış ve 10 Kasım 1938 tarihinde sarayın 71 numaralı odasında hayata gözlerini yummuştur."
         ],
         visitorNotes: [
-            { title: "Müzekart Bilgisi", description: "T.C. vatandaşları için belirli bölümlerde Müzekart geçerlidir." },
-            { title: "Ziyaret Saatleri", description: "Haftanın her günü belirli saatlerde ziyarete açıktır." },
-            { title: "Fotoğraf Çekimi", description: "Flaşsız ve profesyonel ekipman olmaksızın çekim yapılabilir." }
+            { title: "Önemli Not", description: "T.C. vatandaşları için Selamlık, Harem ve Resim Müzesi dahil Müzekart geçerlidir." },
+            { title: "Ziyaret İpucu", description: "Saray içerisindeki tarihi parkelere zarar vermemek için ziyaretçilere galoş takma zorunluluğu uygulanır." },
+            { title: "Genel Bilgi", description: "Girişte biletle birlikte ücretsiz kulaklıklı sesli rehber cihazı (Audio Guide) temin edebilirsiniz." }
         ]
     },
     whyVisit: [
@@ -34,17 +33,17 @@ const SPOT_DATA = {
         { icon: "fa-solid fa-camera", title: "Eşsiz Atmosfer", description: "Fotoğraf severler ve tarih meraklıları için büyüleyici kareler." }
     ],
     mustSee: [
-        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Ana Yapı ve Kubbe", description: "Müthiş işçilikle inşa edilmiş ana mimari unsurlar." },
-        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Tarihi Avlular", description: "Geçmişin izlerini taşıyan görkemli avlu alanları." },
+        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Ana Yapı", description: "Müthiş işçilikle inşa edilmiş ana mimari unsurlar." },
+        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Tarihi Avlular", description: "Geçmişin izlerini taşıyan görkemli alanlar." },
         { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "İç Mekan Detayları", description: "El işçiliği süslemeler ve tarihi eserler." },
         { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Panoramik Görünüm", description: "Çevrenin ve yapının en güzel açılardan görünümü." }
     ],
     transportation: {
         methods: [
-            { icon: "fa-solid fa-train-tram", title: "Tramvay / Raylı Sistem", detail: "T1 tramvay hattı ile en yakın durakta inerek yürüyebilirsiniz." },
-            { icon: "fa-solid fa-bus", title: "Otobüs", detail: "Merkezi hatlar üzerinden bölgeye kolayca ulaşım sağlanır." }
+            { icon: "fa-solid fa-train-tram", title: "Toplu Taşıma", detail: "Raylı sistemler ve merkezi hatlar ile kolayca ulaşım sağlayabilirsiniz." },
+            { icon: "fa-solid fa-bus", title: "Otobüs & Minibüs", detail: "Merkezi noktalardan geçen hatları kullanabilirsiniz." }
         ],
-        tip: "Bölge trafiğe kapalı alanlar içerebileceğinden toplu taşıma en pratik yöntemdir.",
+        tip: "Bölge yoğun olabileceğinden toplu taşıma tercih etmeniz önerilir.",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Dolmabahçe+Sarayı+Müzesi+Istanbul"
     },
     whereToStay: [
